@@ -1,0 +1,20 @@
+{
+  "name": "exam_22_23_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChillinSoul/exam_22_23_web.git"
+  },
+  "author": "house",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChillinSoul/exam_22_23_web/issues"
+  },
+  "homepage": "https://github.com/ChillinSoul/exam_22_23_web#readme"
+}
