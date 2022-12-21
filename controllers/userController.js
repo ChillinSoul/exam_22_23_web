@@ -12,6 +12,6 @@ exports.person_post = (req, res)=> {
   	res.render('person')
   }
   else{
-  	res.render('validation')
+  	res.render('validation.ejs', {persons: req.session.passengers, destination: req.session.destination})
   }
 }

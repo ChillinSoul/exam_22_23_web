@@ -4,8 +4,12 @@ let connection = mysql.createConnection({
 
 	host: 'localhost',
 	user: 'root',
-	password: 'password',
+	password: '',
 	database: 'ecamair'
-});
+})
+connection.connect((e)=>{
+	if(e) {console.log(e)}
+	else{console.log("connected to database")}
+})
 
-exports.connection = connection;
+module.exports = connection;

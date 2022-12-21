@@ -9,7 +9,8 @@ let users = require('./controllers/userController.js');
 
 router.get('/', reservations.home);
 router.post('/', reservations.home_post);
-router.get('/validation', reservations.validation);
+router.post('/validation', reservations.validation);
+router.get('/confirmation', reservations.confirmation);
 router.get('/persons', users.person);
 router.post('/persons', users.person_post);
 

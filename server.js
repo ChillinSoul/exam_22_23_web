@@ -4,7 +4,7 @@ let router = require('./routes.js');
 let bodyParser = require('body-parser');
 let app = express();
 
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
 

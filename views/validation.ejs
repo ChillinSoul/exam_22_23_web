@@ -15,8 +15,11 @@
         
         <div id="persons">
             <h3>Liste des passagers</h3>
-            <ul>
 
+            <ul>
+                <% for (let i = 0; i < persons.length; i++) { %>
+                    <li><%= persons[i].name%> <%= persons[i].age %> ans </li>
+                <% } %>
             </ul>
         </div>
         <form>
